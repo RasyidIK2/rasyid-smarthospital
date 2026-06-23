@@ -86,7 +86,7 @@ with st.form("triangle_form"):
         nausea_vomitting = st.checkbox("Nausea_vomitting")
         dizziness = st.checkbox("Dizziness")
     c5, _, _, _ = st.columns(4)
-    with c5
+    with c5:
         skin_rash = st.checkbox("Skin_rash")
 
 
