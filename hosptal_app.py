@@ -106,7 +106,7 @@ with st.form("triangle_form"):
         duration = st.selectbox("Duration", options=list(dur_map.keys()), index=1)
     st.markdown("<br>", unsafe_allow_html=True)
 
-    t.markdown("""
+    st.markdown("""
     <div style="background:#fff7ed;border:1px solid #fed7aa;border-radius:14px;
                 padding:20px 24px;margin-bottom:20px;">
         <div style="display:flex;align-items:center;gap:10px;">
